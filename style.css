@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(font/Gilroy-Bold.ttf);
+}
+.header-part {
+    background-color: #fff ;
+    width: 100%;
+    max-width: 1920px;
+    height: 88px;
+    padding-top: 33px;
+    box-sizing: border-box;
+}
+.container {
+    width: 945px;
+    display: flex;
+    margin: 0 auto;
+}
+.header-container-top {
+    flex-direction: column;
+}
+.header-list {
+    display: flex;
+    list-style-type: none;
+}
+.header-list-mini {
+    margin-right: 155px;
+}
+.header-link-first {
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    text-decoration: none;
+}
+.header-link {
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    text-decoration: none;
+}
+.header-line {
+    margin-top: 30px;
+    border: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
