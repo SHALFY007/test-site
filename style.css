@@ -6,6 +6,10 @@
     font-family: 'Gilroy-Bold';
     src: url(font/Gilroy-Bold.ttf);
 }
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(font/Gilroy-Medium.ttf);
+}
 .header-part {
     background-color: #fff ;
     width: 100%;
@@ -47,4 +51,100 @@
     margin-top: 30px;
     border: 1px solid #828282;
     transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.top-part {
+    height: 680px;
+    width: 100%;
+    max-width: 1920px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.top-part-container {
+    flex-direction: column;
+}
+.top-part-description {
+    display: flex;
+    margin-bottom: 30px;
+}
+.top-part-header {
+    font-family: 'Gilroy-Bold';
+    font-size: 47.3392px;
+    line-height: 59px;
+
+    /* Black */
+
+    color: #070707;
+    margin-right: 298px;
+}
+.top-part-text {
+    padding-top: 67px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+
+    /* Black */
+
+    color: #070707;
+    margin-right: 350px;
+    min-width: 155px
+}
+.top-part-text-transform {
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #070707;
+
+    transform: rotate(-90deg);
+    padding-right: 32px;
+    min-width: 65px;
+    
+}
+.top-part-text-transform-first {
+    color: #828282;
+}
+.top-part-image {
+    width: 944px;
+    height: 387px;
+    background-image: url(img/BSPP2266.png);
+}
+.part-information {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    height: 506px;
+    padding-top: 120px;
+    box-sizing: border-box;
+    background: #F6F6F6;
+}
+.part-information-container {
+    flex-direction: column;
+}
+.part-informatio-header {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+
+    /* Black */
+
+    color: #070707;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.part-information-text {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    /* Black */
+
+    color: #070707;
+    margin: 0 auto;
+    margin-bottom: 37px;
+}
+.part-information-text:last-child {
+    margin-bottom: 0px;
 }
