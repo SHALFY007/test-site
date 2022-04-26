@@ -230,3 +230,115 @@
 .skills-list-mini:last-child {
     margin-right: 0px;
 }
+.portfolio-part {
+    width: 100%;
+    max-width: 1920px;
+    height: 2253px;
+    padding-top: 113px;
+    box-sizing: border-box;
+    background: #F6F6F6;
+}
+.portfolio-container {
+    flex-direction: column;
+}
+.portfolio-header {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+
+    /* Black */
+
+    color: #070707;
+    margin-bottom: 47px;
+}
+.portfolio-list {
+    list-style-type: none;
+}
+.portfolio-list-mini {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 99px;
+}
+.portfolio-list-img {
+    margin-bottom: 45px;
+}
+.portfolio-list-link {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+
+    /* Black */
+
+    color: #070707;
+}
+.footer-part {
+    height: 622px;
+    padding-top: 114px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1920px;
+}
+.footer-container {
+    flex-direction: column;
+}
+.footer-header {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+
+    /* Black */
+
+    color: #070707;
+    margin-bottom: 30px;
+}
+.footer-text {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 30px;
+}
+.footer-button {
+    background: #070707;
+    height: 42px;
+    width: 180px;
+    border: none;
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-bottom: 86px;
+}
+.footer-button-text {
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.footer-link-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 46px;
+}
+.footer-link-list-mini {
+    margin-right: 61px;
+}
+.footer-link-list-mini-last {
+    margin-right: 0px;
+}
+.footer-link-social-network {
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #828282;
+}
