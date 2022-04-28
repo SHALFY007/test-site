@@ -62,6 +62,23 @@
 .top-part-container {
     flex-direction: column;
 }
+.media-part {
+    display: flex;
+    width: 316px;
+}
+.media-button {
+    display: none;
+    border: none;
+    width: 33px;
+    height: 19.19px;
+    background-image: url(img/Group3.svg);
+}
+.media-form {
+    display: none;
+    padding-top: 15px;
+    margin-left: 128px;
+}
+
 .top-part-description {
     display: flex;
     margin-bottom: 30px;
@@ -104,6 +121,7 @@
     color: #828282;
 }
 .top-part-image {
+    margin: 0 auto;
     width: 944px;
     height: 387px;
     background-image: url(img/BSPP2266.png);
@@ -341,4 +359,77 @@
     text-align: center;
 
     color: #828282;
+}
+@media (max-width:944px) and (min-width: 375px) {
+    .container {
+        width: 316px;
+    }
+    .header-part {
+        height: 0px;
+        padding-top: 0px;
+    }
+    .header-list {
+        display: none;
+    }
+    .header-line {
+        display: none;
+    }
+    .top-part {
+        padding-top: 65px;
+        height: 836px;
+    }
+    .top-part-header {
+        margin-right: 0px;
+    }
+    .top-part-description {
+        flex-direction: column;
+        margin-bottom: 37px;
+    }
+    .top-part-text-transform {
+        display: none;
+    }
+    .top-part-text {
+        padding-top: 23px;
+        margin-right: 0px;
+    }
+    .top-part-image {
+        width: 316.5px;
+        height: 478px;
+        background-image: url(img/BSPP2266\(1\).png);
+    }
+    .skills-part {
+        height: 1421px;
+        padding-top: 83px;
+    }
+    .skills-list {
+        flex-direction: column;
+    }
+    .skills-list-mini {
+        margin-right: 0px;
+        margin: 0 auto;
+        padding-bottom: 81px;
+    }
+    .skills-list-mini:last-child {
+        margin-right: auto;
+        padding-bottom: 0;
+    }
+    .portfolio-part {
+        height: 1118px;
+    }
+    .footer-link-list-mini {
+        margin-right: 51px;
+    }
+    .footer-link-list-mini-last {
+        margin-right: 0;
+    }
+    .media-button {
+        display: block;
+    }
+    .media-form {
+        display: block;
+    }
+    .media-button:active {
+        background-image: url(img/group5.svg);
+    }
+    
 }
